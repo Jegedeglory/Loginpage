@@ -17,7 +17,7 @@ export const Login = (props) => {
         <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="******" id="password" name="password" />
         <button type="submit">Login</button>
     </form>
-    <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Dont have an account? Register</button>
+    <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Dont have an account? Register Here</button>
     </div>
     )
 }
